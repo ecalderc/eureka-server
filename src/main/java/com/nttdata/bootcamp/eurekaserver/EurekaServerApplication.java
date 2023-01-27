@@ -1,4 +1,4 @@
-package nttdata.bootcamp.eurekaserver;
+package com.nttdata.bootcamp.eurekaserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

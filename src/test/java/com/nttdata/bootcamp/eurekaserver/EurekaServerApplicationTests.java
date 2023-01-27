@@ -1,4 +1,4 @@
-package nttdata.bootcamp.eurekaserver;
+package com.nttdata.bootcamp.eurekaserver;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
