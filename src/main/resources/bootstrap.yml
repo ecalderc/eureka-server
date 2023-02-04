@@ -1,9 +1,7 @@
 spring:
   application:
     name: eureka-server
+  profiles:
+    active: dev
   config:
-    import: "optional:configserver:https://config-server-ecalderc.azurewebsites.net"
-    config:
-      enabled: true
-      uri: http://localhost:8888
-      profile: dev
+    import: optional:configserver:https://config-server-ecalderc.azurewebsites.net
