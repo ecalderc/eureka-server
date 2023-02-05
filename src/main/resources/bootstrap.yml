@@ -3,5 +3,10 @@ spring:
     name: eureka-server
   profiles:
     active: dev
-  config:
-    import: optional:configserver:https://config-server-ecalderc.azurewebsites.net
+  cloud:
+    config:
+      enabled: true
+      uri:
+        - https://config-server-ecalderc.azurewebsites.net
+        - http://localhost:8888
+      fail-fast: true
