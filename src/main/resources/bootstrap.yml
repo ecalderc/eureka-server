@@ -10,3 +10,8 @@ spring:
         - https://config-server-ecalderc.azurewebsites.net
         - http://localhost:8888
       fail-fast: true
+
+management:
+  endpoint:
+    health:
+      show-details: always
